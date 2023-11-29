@@ -219,6 +219,8 @@ const Dashboard = () => {
            <p>2</p>
            <input defaultValue={boxTopic[2]} onChange={(e) => setBoxTopicHandler(e)} name="2" type="text" 
            placeholder="enter text"/>
+
+          
            </div>
            <div className="element">
            <p>3</p>
