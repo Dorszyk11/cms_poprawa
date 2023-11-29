@@ -1,0 +1,9 @@
+.picture {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    @media (max-width:480px) {
+        height: 200px
+    };
+}

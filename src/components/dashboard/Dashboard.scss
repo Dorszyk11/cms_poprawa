@@ -1,0 +1,78 @@
+@import './../../colors.scss';
+@import './../../mixins.scss';
+
+.dashboard-container {
+    max-width: 1200px;
+    width: 100%;
+    background: $black;
+    margin: 0 auto;
+    color: white;
+    .show-home-btn {
+        padding: 15px 20px;
+        display: flex;
+        justify-content: flex-end;
+
+
+        
+
+        a {
+            color: white;
+            text-decoration: none;
+            background-color: $adminColor;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        a:hover {
+            color: lightblue
+        }
+    }
+    .sections-order{
+        padding-left: 20px;
+    }
+    .element{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .section-settings {
+        padding: 20px;
+        .title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            h2 {
+                color: white;
+                font-size: 20px;
+            }
+
+            button {
+                border: none;
+                margin-left: 20px;
+                margin-top: 4px;
+                cursor: pointer;
+                background: #4DD0E1;
+                border-radius: 5px;
+
+                &:hover {
+                    background: #80DEEA;
+                }
+            }
+        }
+        .image-link{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .element{
+            display: flex;
+            align-items: center;
+        }
+        .colors{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            gap: 15px;
+        }        
+    }
+}

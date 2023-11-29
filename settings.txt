@@ -1,0 +1,4 @@
+root: "C:\Users\tymbe\OneDrive\Pulpit\pai\cms starter" 
+path: C:\Program Files\nodejs 
+arch: 64 
+proxy: none
